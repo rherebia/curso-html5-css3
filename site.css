@@ -17,6 +17,7 @@ main h1 {
 	margin: 0;
 	border-bottom: 10px black solid;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 main div {
@@ -39,7 +40,7 @@ blockquote {
 	margin: 20px 40px;
 }
 
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
@@ -50,7 +51,7 @@ aside h1 {
 	margin-bottom: 25px;
 }
 
-footer {
+.rodape {
 	background-color: #000;
 	color: #F2FFFC;
 }
@@ -66,6 +67,10 @@ main a {
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.icones-sociais li {
+	display: inline-block;
 }
 
 blockquote, aside, footer {
@@ -87,4 +92,42 @@ em {
 
 h2 {
 	font-size: 30px
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+nav a {
+	text-transform: lowercase;
 }
