@@ -91,7 +91,8 @@ em {
 }
 
 h2 {
-	font-size: 30px
+	font-size: 30px;
+	clear: both;
 }
 
 article {
@@ -130,4 +131,41 @@ article {
 
 nav a {
 	text-transform: lowercase;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float:left;
+}
+
+aside, img {
+	float: right;
+	width: 15%;
+}
+
+aside {
+	clear: right;
+	box-sizing: border-box;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+footer {
+	clear: both;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+.minha-foto, .navegacao-site {
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
