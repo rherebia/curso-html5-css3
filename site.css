@@ -9,6 +9,10 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+main {
+	padding-bottom: 50px;
+}
+
 main h1 {
 	text-align: center;
 	background-color: #851944;
@@ -143,12 +147,14 @@ nav a {
 
 aside, img {
 	float: right;
-	width: 15%;
 }
 
 aside {
 	clear: right;
 	box-sizing: border-box;
+	width: 15%;
+	position: relative;
+	top: 310px;
 }
 
 main {
@@ -158,6 +164,9 @@ main {
 
 footer {
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 cite {
@@ -168,4 +177,10 @@ cite {
 .minha-foto, .navegacao-site {
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
