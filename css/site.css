@@ -33,17 +33,6 @@ p {
 	margin: 20px 0;
 }
 
-blockquote {
-	background-color: #D9E5E3;
-	border: 10px #C2CCCA solid;
-	width: 250px;
-	margin: 0;
-	box-sizing: border-box;
-	border-bottom-color: #333;
-	border-right-color: #FFF;
-	margin: 20px 40px;
-}
-
 .navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
@@ -99,21 +88,6 @@ h2 {
 	clear: both;
 }
 
-article {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
-}
-
-.leia-mais {
-	padding: 8px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
 .icones-sociais a {
 	width: 40px;
 	height: 40px;
@@ -122,27 +96,19 @@ article {
 }
 
 .github {
-	background-image: url(github.png);
+	background-image: url(../img/github.png);
 }
 
 .twitter {
-	background-image: url(twitter.png);
+	background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-	background-image: url(linkedin.png);
+	background-image: url(../img/linkedin.png);
 }
 
 nav a {
 	text-transform: lowercase;
-}
-
-.fiat {
-	float: right;
-}
-
-.petrobras {
-	float:left;
 }
 
 aside, img {
